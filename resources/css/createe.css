@@ -1,0 +1,25 @@
+/* createe.css */
+
+body {
+    font-family: 'Arial', sans-serif; /* Set a clean font for the body */
+}
+
+h2 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the header */
+}
+
+input:focus {
+    border-color: #3b82f6; /* Change border color on focus */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* Add a glow effect on focus */
+}
+
+button {
+    transition: background-color 0.3s ease; /* Smooth transition for button hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .bg-white {
+        padding: 4rem 2rem; /* Adjust padding for smaller screens */
+    }
+}
